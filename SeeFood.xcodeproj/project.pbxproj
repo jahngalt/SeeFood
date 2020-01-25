@@ -13,6 +13,7 @@
 		ED32380223DB958500F56F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED32380023DB958500F56F7F /* Main.storyboard */; };
 		ED32380423DB958C00F56F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED32380323DB958C00F56F7F /* Assets.xcassets */; };
 		ED32380723DB958C00F56F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED32380523DB958C00F56F7F /* LaunchScreen.storyboard */; };
+		ED32380F23DB95F100F56F7F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ED32380E23DB95F100F56F7F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED32380323DB958C00F56F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED32380623DB958C00F56F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED32380823DB958C00F56F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED32380E23DB95F100F56F7F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ED32380323DB958C00F56F7F /* Assets.xcassets */,
 				ED32380523DB958C00F56F7F /* LaunchScreen.storyboard */,
 				ED32380823DB958C00F56F7F /* Info.plist */,
+				ED32380E23DB95F100F56F7F /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3237FF23DB958500F56F7F /* ViewController.swift in Sources */,
+				ED32380F23DB95F100F56F7F /* Inceptionv3.mlmodel in Sources */,
 				ED3237FB23DB958500F56F7F /* AppDelegate.swift in Sources */,
 				ED3237FD23DB958500F56F7F /* SceneDelegate.swift in Sources */,
 			);
